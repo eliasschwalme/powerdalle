@@ -34,6 +34,7 @@ db.serialize(() => {
       quality TEXT,
       model TEXT,
       createdAt DATETIME DEFAULT CURRENT_TIMESTAMP
+      createdAt DATETIME on DEFAULT CURRENT_TIMESTAMP
     )
   `);
 });
